@@ -1,0 +1,16 @@
+site_name: F1 Data Pipeline
+site_description: Documentação do projeto de extração e transformação de dados de Fórmula 1.
+
+theme:
+  name: material
+
+nav:
+  - Início: index.md
+  - Arquitetura: architecture.md
+  - Componentes:
+      - Validação: components/validacao.md
+  - Pipelines:
+      - Carga: pipelines/carga_diaria.md
+  - Operações:
+      - Troubleshooting: operations/troubleshooting.md
+  - Decisão de Persistência: decisions/0001-formato-de-dados.md
