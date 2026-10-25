@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 82" role="img" aria-labelledby="title">
+  <title id="title">F1 Race Intelligence</title>
+  <g fill="none" stroke="#E10600" stroke-linecap="round" stroke-width="7">
+    <path d="M8 22h47M8 38h35M8 54h23"/>
+  </g>
+  <path fill="#F3F4F6" d="M74 18h47v12H88v9h28v12H88v15H74z"/>
+  <path fill="#E10600" d="M129 18h16v36h26v12h-42z"/>
+  <path fill="#E10600" d="M188 28h164v2H188z"/>
+  <text x="188" y="48" fill="#F3F4F6" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2">RACE INTELLIGENCE</text>
+  <text x="188" y="65" fill="#9CA3AF" font-family="Arial, sans-serif" font-size="9" font-weight="600" letter-spacing="2">DATA · TELEMETRY · INSIGHTS</text>
+</svg>

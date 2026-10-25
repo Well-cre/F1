@@ -6,6 +6,7 @@ theme:
 
 nav:
   - Início: index.md
+  - Melhorias de UX/UI: dashboard-ux-ui.md
   - Arquitetura: architecture.md
   - Componentes:
       - Validação: components/validacao.md

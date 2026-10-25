@@ -3,10 +3,11 @@ name = "f1"
 version = "0.1.0"
 description = "Pipeline de engenharia de dados para dados históricos de Fórmula 1 via OpenF1."
 readme = "README.md"
-requires-python = ">=3.12,<3.13"
+requires-python = ">=3.12,<4.0"
 dependencies = [
     "httpx>=0.28,<1.0",
-    "streamlit (>=1.66.1,<2.0.0)",
+    "streamlit>=1.66.1,<2.0.0",
+    "plotly>=6.0,<7.0",
 ]
 
 [tool.poetry]
@@ -24,8 +25,9 @@ pre-commit = "^4.7.0"
 [tool.taskipy.tasks]
 test = "pytest"
 lint = "ruff check ."
-format = "ruff format ."
-docs = "mkdocs build"
+format = "ruff check . --fix && ruff format ."
+docs = "mkdocs build --strict"
+check = "ruff check . && pytest && mkdocs build --strict"
 
 [tool.ruff]
 line-length = 88

@@ -46,3 +46,5 @@ poetry run streamlit run src/f1/dashboard.py
 ```
 
 O diretório de saída pode ser configurado com a variável `F1_OUTPUT_DIR`.
+
+Consulte também o [relatório de melhorias de UX/UI](dashboard-ux-ui.md).
